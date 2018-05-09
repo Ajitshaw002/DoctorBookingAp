@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.ajit.doctorbooking.Registration">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="  Enter first name"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shap"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/ed_fname"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="  Enter last name"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shap"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/ed_lname"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="  Enter User name"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shap"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/ed_usrname"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="  Enter Password"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shap"
+            android:inputType="textPassword"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/ed_password"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="  Enter address"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shap"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/ed_address"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="  Enter phone number"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shap"
+            android:inputType="number"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/ed_phnumbr"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="  Enter email"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shap"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/ed_email"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="30dp"
+
+            android:text="Save"
+            android:background="@drawable/buttonshap"
+            android:id="@+id/btn_register"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
